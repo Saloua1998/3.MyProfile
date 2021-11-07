@@ -1,54 +1,74 @@
+/* BASIC STYLING */
 body {
   margin: 0px;
   display: flex;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-h1 {
+h5 {
   margin: 0.5rem 0;
   font-weight: 600;
 }
 h3 {
-  margin-top: 0rem;
-  margin-bottom: 0rem;
+  margin: 0rem;
   font-weight: 600;
-}
-h5 {
-  margin: 0.5rem auto;
-  color: white;
-  font-weight: 600;
-}
-hr {
-  margin: 0.3rem 0rem;
-}
-table {
-  font-size: small;
-}
-p {
-  font-size: small;
-  margin-top: 0rem;
 }
 a {
   text-decoration: none;
   color: aliceblue;
 }
-td:first-child {
-  font-weight: 600;
+hr {
+  border-radius: 50%;
+  background-color: black;
+  border: black solid 0.07rem;
 }
 
+/* COLUMN 1 */
+.Col1 {
+  background-color: deepskyblue;
+  min-height: calc(100vh - 2rem);
+  min-width: 15rem;
+  width: 15vw;
+  padding: 1rem;
+}
+.C1S1 {
+  text-align: center;
+  color: white;
+}
 .ProfilePic {
   height: 10rem;
   margin-left: auto;
   margin-right: auto;
 }
-.Col1 {
-  background-color: deepskyblue;
-  height: 100vh - 2rem;
-  width: 20vw;
-  padding: 1rem;
+.Col1 .fa {
+  margin-right: 1rem;
 }
+.Col1 table {
+  font-size: small;
+  margin-top: 0rem;
+}
+.Col1 td:first-child {
+  font-weight: 600;
+}
+.Col1 p {
+  margin-top: 0;
+}
+
+/* COLUMN 2 */
 .Col2 {
   background-color: seashell;
-  height: calc(100vh - 4rem);
+  height: 100vh - 4rem;
   width: 80vw;
+  min-width: 50rem;
   padding: 2rem;
+}
+.Col2 table {
+  font-size: normal;
+}
+.Col2 h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.Col2 td:first-child {
+  width: 10rem;
+  height: 1.5rem;
 }
