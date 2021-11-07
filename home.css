@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+h3 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-weight: 600;
+}
+h5 {
+  margin: 0.5rem auto;
+  color: white;
+  font-weight: 600;
+}
+hr {
+  margin: 0.3rem 0rem;
+}
+table {
+  font-size: small;
+}
+p {
+  font-size: small;
+  margin-top: 0rem;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+td:first-child {
+  font-weight: 600;
+}
+
+.ProfilePic {
+  height: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Col1 {
+  background-color: deepskyblue;
+  height: 100vh - 2rem;
+  width: 20vw;
+  padding: 1rem;
+}
+.Col2 {
+  background-color: seashell;
+  height: calc(100vh - 4rem);
+  width: 80vw;
+  padding: 2rem;
+}
